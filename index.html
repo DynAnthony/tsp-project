@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <title>The Surfing Project</title>
+    </head>
+    
+    <body>
+        <header class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark  sticky-top"> <!-- Grâce à navbar-expand-md, la navbar s'étend à partir de md, et en-dessous de md, elle se regroupe dans le button. Grâce à sticky-top, la navbar reste fixée en haut et visible même si on scrolle pour les pages longues. -->
+                <a class="navbar-brand" href=""><h3>The Surfing Project</h3></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                        <i class="material-icons">menu</i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-left" id="myNavbar">
+                    <ul class="nav nav-pills navbar-nav"> <!-- Les class nav-pills et navbar-nav sont récents. -->
+                        <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Le programme</a></li>
+                  
+                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="collapse_target" href="#">Nos prochaines Sessions</a>
+<!--
+                            <ul class="collapse navbar-collapse" id="collapse_target">
+                                <li class="dropdown-item "><a href="#">Option 1</a></li>
+                                <li class="dropdown-item"><a href="#">Option 2</a></li>
+                                <li class="dropdown-item"><a href="#">Option 3</a></li>
+                                <li class="dropdown-item"><a href="#">Option 4</a></li>
+                                <li class="dropdown-item"><a href="#">Option 5</a></li>
+                            </ul>
+-->
+                        
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            </header>
+        
+            <section id="jumbotron" class = "container-fluid">
+                <div class="jumbotron text-center">
+                <h1 class="display-4 text-white">Partez à l'aventure</h1>
+                <p class="lead text-white">Découvrez notre école de surf en peer-learning</p>  
+                <a class="btn btn-primary btn-lg" href="#" role="button">Je m'inscris à la prochaine session</a>
+                <a class="btn btn-secondary btn-lg" href="#" role="button">Je découvre le programme</a>
+                </div>
+            </section>
+        
+            <section id="tsp3points" class="container text-center">
+                <div class="heading">
+                    <h1 class="my-md-3">The Surfing Project en 3 Points</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="pas-cher-block">
+                            <i class="material-icons text-center" style="font-size: 10em" >panorama</i>
+                            <h2>Pas Chère</h2>
+                            <p>Haec igitur Epicuri non probo, inquam. De cetero vellem equidem qui tenent. Haec igitur Epicuri non probo, inquam. De cetero vellem equidem qui tenent.</p>
+                        </div>
+                    </div>
+                     <div class="col-md-4">
+                        <div class="relax-block">
+                            <i class="material-icons text-center" style="font-size: 10em">airline_seat_flat</i>
+                            <h2>Relax</h2>
+                            <p>Haec igitur Epicuri non probo, inquam. De cetero vellem equidem qui tenent. Haec igitur Epicuri non probo, inquam. De cetero vellem equidem qui tenent.</p>
+                        </div>
+                    </div>
+                         <div class="col-md-4">
+                        <div class="community-block">
+                            <i class="material-icons text-center" style="font-size: 10em">group</i>
+                            <h2>La communauté</h2>
+                            <p>Haec igitur Epicuri non probo, inquam. De cetero vellem equidem qui tenent. Haec igitur Epicuri non probo, inquam. De cetero vellem equidem qui tenent.</p>
+                        </div>
+                        </div>
+                </div>
+            </section>
+        
+             <section id="temoignages" class="container text-center">
+                <div class="heading">
+                    <h1 class="my-md-5">Témoignages</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="surf-block border border-secondary rounded text-justify">
+                            <img src="images/surf.jpg" alt="surfing" class="img-fluid rounded-top">
+                            <p class="m-3">Haec igitur Epicuri non probo, inquam. De cetero vellem equidem qui tenent. Haec igitur Epicuri non probo, inquam. De cetero vellem equidem qui tenent.</p>
+                            <p class="text-muted mx-3"><small>Jeff, Avril 2019.</small></p>
+                        </div>
+                    </div>
+                        <div class="col-md-6">
+                            <div class="van-block border border-secondary rounded text-justify">
+                                <img src="images/van.jpg" alt="surfing" class="img-fluid rounded-top">
+                                <p class="m-3">Haec igitur Epicuri non probo, inquam. De cetero vellem equidem qui tenent. Haec igitur Epicuri non probo, inquam. De cetero vellem equidem qui tenent.</p>
+                                <p class="text-muted mx-3"><small>Jean-Michel, Octobre 2018.</small></p>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+            <section id="pricing-header" class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                <h1 class="display-4">Prix</h1>
+                <p class="lead">Facilités de paiement</p>
+            </section>
+
+            <section id="pricing" class="container-fluid">
+                <div class="card-deck mb-3 text-center">
+                    <div class="card mb-4 shadow-sm">
+                          <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Semaine d'essai</h4>
+                          </div>
+                          <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                              <li>Le Kiff</li>
+                              <li>A Bali</li>
+                              <li>Pendant une semaine</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">S'inscrire</button>
+                          </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                      <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">Early Bird</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>Le Kiff</li>
+                          <li>A Bali</li>
+                          <li>Pendant 12 semaines</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">S'inscrire</button>
+                      </div>
+                    </div>
+                    <div class="card mb-4 shadow-sm">
+                      <div class="card-header">
+                        <h4 class="my-0 font-weight-normal">En 3 fois</h4>
+                      </div>
+                      <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>30 users included</li>
+                          <li>15 GB of storage</li>
+                          <li>Phone and email support</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block btn-primary">S'inscrire</button>
+                      </div>
+                    </div>
+                </div>
+            </section> 
+
+            <footer class="container-fluid">
+                <p class="text-muted">@ Boostrap, The Surfing Project</p>
+            </footer>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+    </html>
