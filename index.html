@@ -22,19 +22,17 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-left" id="myNavbar">
                     <ul class="nav nav-pills navbar-nav"> <!-- Les class nav-pills et navbar-nav sont récents. -->
-                        <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#" id="accueil">Accueil</a></li>
                         <li class="nav-item"><a class="nav-link" href="#">Le programme</a></li>
                   
-                        <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="collapse_target" href="#">Nos prochaines Sessions</a>
-<!--
-                            <ul class="collapse navbar-collapse" id="collapse_target">
-                                <li class="dropdown-item "><a href="#">Option 1</a></li>
-                                <li class="dropdown-item"><a href="#">Option 2</a></li>
-                                <li class="dropdown-item"><a href="#">Option 3</a></li>
-                                <li class="dropdown-item"><a href="#">Option 4</a></li>
-                                <li class="dropdown-item"><a href="#">Option 5</a></li>
+                        <li class="nav-item dropdown"><button type="button" class="nav-link btn btn-success bg-transparent border-0 dropdown-toggle" data-toggle="dropdown" href="#">Nos prochaines Sessions</button>
+                            <ul class="dropdown-menu" >
+                                <li class="dropdown-item "><a href="#">Sarah</a></li>
+                                <li class="dropdown-item"><a href="#">Barbara</a></li>
+                                <li class="dropdown-item"><a href="#">Ezra</a></li>
+                                <li class="dropdown-item"><a href="#">Maxime</a></li>
+                                <li class="dropdown-item"><a href="#">D.Antho</a></li>
                             </ul>
--->
                         
                         </li>
                     </ul>
@@ -44,10 +42,10 @@
         
             <section id="jumbotron" class = "container-fluid">
                 <div class="jumbotron text-center">
-                <h1 class="display-4 text-white">Partez à l'aventure</h1>
+                <h1 class="display-4 text-white font-weight-bold">Partez à l'aventure</h1>
                 <p class="lead text-white">Découvrez notre école de surf en peer-learning</p>  
-                <a class="btn btn-primary btn-lg" href="#" role="button">Je m'inscris à la prochaine session</a>
-                <a class="btn btn-secondary btn-lg" href="#" role="button">Je découvre le programme</a>
+                <a class="btn btn-primary btn-lg my-2" href="#" role="button">Je m'inscris à la prochaine session</a>
+                <a class="btn btn-secondary btn-lg my-2" href="#" role="button">Je découvre le programme</a>
                 </div>
             </section>
         
@@ -103,7 +101,7 @@
         </section>
 
             <section id="pricing-header" class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
-                <h1 class="display-4">Prix</h1>
+                <h1 class="display-4"><h1>Prix</h1></h1>
                 <p class="lead">Facilités de paiement</p>
             </section>
 
@@ -153,8 +151,30 @@
                     </div>
                 </div>
             </section> 
+            <section class="container border border-secondary rounded">
+                    <form class="px-4 py-3">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputPassword1">Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                      </div>
+                      <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">New around here? Sign up</a>
+                <a class="dropdown-item" href="#">Forgot password?</a>
+                </section>
 
             <footer class="container-fluid">
+                <a href="#accueil" class="btn btn-success my-2 btn-block">Back to Top</a>
                 <p class="text-muted">@ Boostrap, The Surfing Project</p>
             </footer>
 
